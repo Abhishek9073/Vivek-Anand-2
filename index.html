@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newresume</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        #p1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: black;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(250, 6, 128) 75%, pink 0);    
+}
+#p2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: black;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(32, 245, 4) 95%, rgb(135, 170, 114) 0);    
+}
+#p3 {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+  color: black;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(6, 22, 245) 75%, rgb(112, 113, 197) 0);    
+}
+
+@media screen and (min-width:576px) {
+    .round{
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        margin-top: 30vh;
+        
+
+    }
+   
+}
+@media screen and (max-width:576px) {
+    #rd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+ 
+
+    </style>
+
+ </head>
+ <body>
+    <!-----navbar-->
+    <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#abt">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sk">Skills</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-file-earmark-person-fill"></i>  Resume
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class="bi bi-eye-fill"></i> View</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="bi bi-arrow-down-circle-fill"></i> Download</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      
+                    </ul>
+                  </li>
+                   
+                </ul>
+                
+                <form class="d-flex" role="search">
+                  <button class="btn btn-outline-primary" type="submit" > <a href="#btn1"><i class="bi bi-person-lines-fill"></i> Contact Me  </button></a>
+                </form>
+           
+              </div>
+            </div>
+          </nav>
+    </div> <!------end navbar-->
+    <div class="row">
+        <div class="col-sm-6 col-12  text-center " style="height: 400px;">
+            <div class="col" style="padding:50px;"><h1 style="margin-top: 100px;">I'm Vivek Anand,</h1><h3>a Front-end Developer.</h3></div>
+
+        </div>
+        <div class="col-sm-6 col-12 " style="height: 400px;">
+            <div class="col" style="overflow: hidden ; padding: 40px,30px;">
+                <img src="dp.jpg" class="img-fluid" height="400px" width="400px" style="border-radius: 50%;"  alt="">
+            </div>
+        </div>
+    </div>
+    <!-----left right end-->
+    <div class="row" id="sk" style="margin-top: 150px;">
+      <div class="col-12" >
+        <h1 style="text-align: center;">Skills</h1>
+      </div>
+    </div>
+    
+    <div class="round d-sm-flex " id="rd" >
+        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" id="p1">98% HTML</div> 
+        
+    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" id="p2">86% CSS</div>
+    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" id="p3">55% JS</div>
+    
+    </div> 
+     
+    <!---round-->
+
+<!----About------>
+    <div class="row" id="abt" style="margin-top: 20px; padding: 50px;">
+        <div class="col-sm-6 " style="height: 400px;">
+            <h1><u>About</u></h1>
+            <p>Hello there. I'm Vivek Anand, a creative front-end developer with a keen eye for design and a commitment to delivering pixel-perfect, user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript. I specialize in crafting responsive and unfultive user interfaces that not only meet but exceed client expactaions.</p>
+        </div>
+
+        <div class="col-sm-6" style="height: 400px;">
+            <div class="col">
+                <img src="https://img.freepik.com/free-photo/3d-portrait-people_23-2150793856.jpg?t=st=1706392229~exp=1706395829~hmac=28077807717f7b8ddbbca1cdd5944b27b3623cda2f58fa916ad5d058626fa75e&w=740" class="img-fluid rounded-5"  alt="">
+            </div>
+        </div>
+    </div>
+<!-----Projects---->
+<div class="row" id="sk" style="margin-top: 150px;">
+  <div class="col-12" >
+    <h1 style="text-align: center;"><u>Projects</u></h1>
+  </div>
+</div>
+
+<!------Website 1--------->
+    <div class="row" id="wbst" style="margin-top: 20px; padding: 50px;">
+      <div class="col-sm-6 " style="height: 400px;">
+        <div class="col">
+          <img src="project1.jpeg" class="img-fluid rounded-5"  alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-6" style="height: 400px;">
+        <h1><u>Website 1</u></h1>
+        <p>HTML5 & CSS3: Proficient in writing clean, semantic markup with a focus on modern eb standards. I stay up-tp-date with the latest CSS featurs, including Flexbox and Grid, to create flexible layouts.</p>
+      </div>
+    </div> <!------end----->
+  <!--------Website 2-------->
+  <div class="row" style="padding: 50px;">
+    <div class="col-sm-6" style="height: 400px;">
+      <h1><u>Website 2</u></h1>
+      <p>JavaScript & jQuery: Experienced in developing interactive and dynamic user interfaces. I leverage JavaScript to enhance user Experienced and ensure smooth functionality across different browsers.</p>
+    </div>
+
+    <div class="col-sm-6" style="height: 400px;">
+      <div class="col">
+        <img src="https://img.freepik.com/free-photo/meeting-group-marketing-experts_1409-7697.jpg?t=st=1706487673~exp=1706491273~hmac=91cf76221def34680219b72a97f385d87c1deff1dc2cb4ee15b38afda5e90a09&w=900" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div> <!----end----->
+  <!-------Website 3------------>
+  <div class="row" style="padding: 50px;">
+    <div class="col-sm-6" style="height: 400px;">
+      <div class="col">
+        <img src="https://img.freepik.com/free-photo/modern-office-space-illuminated-by-glowing-computer-monitor-generated-by-ai_188544-22508.jpg?t=st=1706512459~exp=1706516059~hmac=10490821736a8369234a3e34250b1b227ca3f124c944216b97bc005e22948d56&w=740" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="col-sm-6" style="height: 400px;">
+      <h1><u>Website 3</u></h1>
+      <p>Responsive Design: Adept at creating websites that seamlessly adapt to various screen sizes and devices. I prioritize mobile-first development to ensire a consistent and enjoyable experience for all users.</p>
+    </div>
+  </div>
+
+  <!------Footer------>
+
+  <div class="row" id="ft" style="background-color: black; border: 10px double yellow; color:  white;  padding: 50px;">
+    <div class="row" >
+      <div class="col-12" >
+        <h1 style="text-align: center;" >Let's Work Together</h1>
+      </div>
+    </div>
+    <div class="row" >
+      <div class="col-sm-6" style="display: flex; height: 300px; justify-content: center;   flex-direction: column; gap: 10px; ">
+        <a href="" style="text-decoration: none; outline: none; color: white;"><img src="telephone.png" height="35px" width="35px" class="img-fluid" alt=""><b style="padding: 8px;">7481873859</b></a>
+        <a href="" style="text-decoration: none; outline: none; color: white;"><img src="whatsapp (1).png" height="35px" width="35px" class="img-fluid" alt=""><b style="padding: 8px;">7481873859</b></a>
+        <a href="" style="text-decoration: none; outline: none; color: white;"><img src="gmail.png" height="35px" width="35px" class="img-fluid" alt=""><b style="padding: 8px;">va691187@gmail.com</b></a>
+        <a href="" style="text-decoration: none; outline: none; color: white;"><img src="instagram (1).png" height="35px" width="35px" class="img-fluid" alt=""><b style="padding: 8px;">code_vivek56</b></a>
+      </div>
+
+      <div class="col-sm-6" style="margin-top: 20px;" id="btn1">
+        <input type="text" placeholder="Name" style="border-radius:5px; border: none; width: 280px;"><br/>
+        <input type="email" name="" id="" placeholder="E-mail" style=" width: 280px; border-radius: 5px; border: none; margin:20px 0px 20px 0px;"><br/>
+        <textarea name="" id="" cols="37" rows="8" placeholder="Message" style="border-radius:10px; border: none;"></textarea>
+      <br>
+      <div  id="bbt" style="background-color: rgb(0, 125, 209); color: white; width: 60px; cursor: pointer; border-radius: 5px; text-align: center;">Send</div>
+      </div>
+    </div>
+        <div class="row">
+
+          <div class="col">
+            <h2> Developed by Anand Vivek</h2>
+          </div>
+        </div>
+  </div>
+
+<!-----Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+ </body>
+ </html>
